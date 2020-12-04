@@ -25,3 +25,5 @@ you will also need to specify the user account to be used. You need to ensure it
 
 By default, the script is configured to send a discord webhook using discord-notify.sh, you will need to add your webhook url to it
 You can also send an email notice (there is a commented spot near the end of drivecheck.sh where you can specify the email address and uncomment the command)
+
+Once you have verified the sript is able to ssh to servers and run the omreport command you can add this to your cron jobs to run at whatever interval you prefer. I have it configured hourly
